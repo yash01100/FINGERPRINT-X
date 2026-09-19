@@ -1,36 +1,63 @@
-# FINGERPRINT-X
+# 🧬 FINGERPRINT-X
 
-## AI Biometric Intelligence Platform
+### AI Biometric Intelligence Platform
 
-FINGERPRINT-X is an experimental AI research project exploring fingerprint image analysis using deep learning.
+> An experimental deep-learning platform for fingerprint image analysis and biometric research.
 
-### Technology
-- Python
-- TensorFlow
-- Keras
-- OpenCV
-- Streamlit
-- CNN
+---
 
-### Current Prototype
-- Fingerprint image preprocessing
-- Grayscale conversion
-- Image enhancement
-- Ridge extraction
-- CNN-based experimental classification
-- Interactive Streamlit dashboard
+## 🚀 Overview
 
-### Research Directions
-- Age estimation
-- Blood-group prediction
-- Weight/body-profile estimation
+**FINGERPRINT-X** is an experimental AI research project that explores how deep-learning models can analyze fingerprint images and extract meaningful biometric patterns.
 
-These are research directions and are not presented as medically validated measurements.
+The platform combines **Computer Vision, CNNs, TensorFlow/Keras, OpenCV and Streamlit** into an interactive research prototype.
 
-## Disclaimer
+The current system focuses on building and validating the complete pipeline:
 
-FINGERPRINT-X is an experimental research project. Predictions should not be used for medical, diagnostic, or identity decisions.
+**Fingerprint Image → Preprocessing → CNN → Experimental Inference → Interactive Dashboard**
 
-## Author
+---
 
-Yash Raj
+## ✨ Features
+
+- 🖐️ Fingerprint image upload
+- 🧹 Image preprocessing
+- ⚫ Grayscale conversion
+- 🔍 CLAHE-based image enhancement
+-〽️ Ridge extraction
+- 🧠 CNN-based deep-learning inference
+- 📊 Experimental model evaluation
+- 🖥️ Interactive Streamlit dashboard
+- 📁 Structured research pipeline
+- 🔬 Future biometric research modules
+
+---
+
+## 🧠 System Architecture
+
+```text
+                Fingerprint Image
+                       │
+                       ▼
+              Image Preprocessing
+                       │
+                       ▼
+              Grayscale Conversion
+                       │
+                       ▼
+               CLAHE Enhancement
+                       │
+                       ▼
+                 128 × 128 Input
+                       │
+                       ▼
+                 CNN Model
+                       │
+                       ▼
+              Feature Extraction
+                       │
+                       ▼
+             Experimental Inference
+                       │
+                       ▼
+             Streamlit Dashboard
