@@ -1,0 +1,7 @@
+venv/
+dataset/
+__pycache__/
+*.pyc
+*.keras
+*.h5
+.streamlit/

@@ -1,0 +1,6 @@
+print("================================")
+print("   FINGERPRINT-X AI PROJECT")
+print("================================")
+print("System setup successful!")
+print("Python is working correctly.")
+print("AI research journey started 🚀")
