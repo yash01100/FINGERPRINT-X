@@ -34,6 +34,8 @@ The current system focuses on building and validating the complete pipeline:
 ---
 
 ## 🧠 System Architecture
+![FINGERPRINT-X Architecture](architecture.png)
+
 
 ```text
                 Fingerprint Image
