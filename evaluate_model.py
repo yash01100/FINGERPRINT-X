@@ -1,4 +1,4 @@
-import os
+﻿import os
 import numpy as np
 import tensorflow as tf
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
@@ -9,13 +9,13 @@ print("================================")
 
 IMG_SIZE = (128, 128)
 TEST_DIR = "dataset/test"
-MODEL_PATH = "fingerprint_gender_model.keras"
+MODEL_PATH = "fingerprint_gender_model_v2.keras"
 
 # Load model
 print("Loading trained model...")
 model = tf.keras.models.load_model(MODEL_PATH)
 
-print("✅ Model loaded")
+print("âœ… Model loaded")
 
 images = []
 labels = []
@@ -144,5 +144,5 @@ print(
 
 
 print("================================")
-print("✅ EVALUATION COMPLETE")
+print("âœ… EVALUATION COMPLETE")
 print("================================")
